@@ -4,11 +4,70 @@
     <meta charset="UTF-8">
     <title>Superheroes</title>
     <style>
-      
+      .heropic{
+        height: 100px;
+      }
+      td,th{
+        border:1.5px solid black;
+        padding: 15px;
+      }
+      table{
+        border-spacing: 0px;
+      }
+      body{
+        background-image: url(images/supback2.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        text-align: center;
+      }
+      .center {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  text-align: center;
+}
     </style>
   </head>
   <body>
-    <h1>Page Title</h1>
+    <h1 class="center">My Favorite Superheroes</h1>
+    <table class="center">
+      <thead style="background-color:gray">
+          <tr>
+              <th >Name</th>
+              <th>Alias</th>
+              <th>Image</th>
+              <th>Superpower</th>
+              <th >Weakness</th>
+          </tr>
+      </thead>
+      <tr>
+          <th>The Flash</th>
+          <td>Barry Allen</td>
+          <td><a href="images/theflash.jpg"> <img class="heropic"src = "images/theflash.jpg" alt="The Flash"></a></td>
+          <td>Super Speed</td>
+          <td>
+            <ul>
+              <li>Freeze</li>
+              <li>His Mom</li>
+              <li>Batman</li>
+           </ul>
+          </td>
+      </tr>
+      <tr>
+          <th>Spider-man</th>
+          <td><a href=""></a></td>
+          <td><a href="">Validation</a></td>
+      </tr>
+      <tr>
+          <th>Gohan</th>
+          <td><a href=""></a></td>
+          <td><a href="">Validation</a></td>
+      </tr>
+      <tr>
+          <th>Hawkeye</th>
+          <td><a href=""></a></td>
+          <td><a href="">val</a></td>
+  </table>
     <h3> <a href="https://dsantander013.github.io/" > <img src = "images/button_home-page.png" alt="home button"> </h3>
   </body>
 </html>
