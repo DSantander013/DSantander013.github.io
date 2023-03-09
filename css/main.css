@@ -1,1 +1,10 @@
-
+  h1 {
+    color: rgb(59, 18, 241);
+    }
+    body{
+        background-color: rgb(230, 119, 28);
+    }
+    a{
+        font-size: 20px;
+        color: black;
+    }
