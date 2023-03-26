@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Diego's Search Function</title>
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .home{
+        height: 75px;
+        width: 250px;
+          }
+          button{
+            background-color: rgb(23,29, 110);
+            color: rgb(252, 195, 7);
+          }
+          label{
+            color: rgb(23,29, 110);
+          }
+          u{
+            color:black; 
+          }
+          legend{
+            color: rgb(23,29, 110);
+          }
+    </style>
+  </head>
+  <body>
+    <h1>Diego's Search Function</h1>
+    <form action="https://www.google.com/search" method="get">
+      <fieldset>
+        <legend>Search Options</legend>
+        <u><label for="searchBox">Search Keywords:</label></u>
+        <input type="text" id="searchBox" name="box">
+        <br>
+        <u><label for="exactPhrase">Phrase:</label></u>
+        <input type="text" id="exactPhrase" name="as_epq">
+        <br>
+        <u><label for="siteSearch">Site Search:</label></u>
+        <input type="text" id="siteSearch" name="as_sitesearch">
+        <br>
+        <u><label for="excludeWords">Exclude Words:</label></u>
+        <input type="text" id="excludeWords" name="as_eq">
+        <br>
+        <u><label for="fileType">File Type:</label></u>
+        <select id="fileType" name="as_filetype">
+          <option value="">Any</option>
+          <option value="doc">Word</option>
+          <option value="ppt">PowerPoint</option>
+          <option value="xls">Excel</option>
+          <option value="pdf">PDF</option>
+        </select>
+      </fieldset>
+      <br>
+      <button type="submit">Search</button>
+    </form>
+    <h3> <a href="https://dsantander013.github.io/" > <img class="home"src = "images/button_home-page.png" alt="home button"> </h3>
+  </body>
+</html>
