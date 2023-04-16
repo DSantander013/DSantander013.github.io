@@ -1,0 +1,17 @@
+body{
+    background-color: gray;
+}
+a{
+    color: navy;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+h2{
+    font-size: 24px;
+}
+.res{
+    border-style: groove;
+    padding: 10px;
+}
